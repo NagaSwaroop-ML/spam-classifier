@@ -17,6 +17,9 @@ This is a simple machine learning project that classifies SMS messages as spam o
 - Accepts user input
 - Works on real dataset (spam.tsv)
 
+## Model Performance
+- Achieves around 95% accuracy on test data
+
 ## How to Run
 
 1. Install required libraries:
@@ -25,6 +28,7 @@ pip install pandas scikit-learn
 2. Run the program:
 python SpamClassifier.py
 
+
 ## Example
 
 Input:
@@ -32,3 +36,8 @@ win free money now
 
 Output:
 Spam
+
+## Sample Output
+
+Enter message: win free money now  
+Output: Spam
